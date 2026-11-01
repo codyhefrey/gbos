@@ -1,15 +1,13 @@
-# OPERIX — Public Contracts and Community
+# Enterprise Records & Information Exchange — Public Contracts
 
-**OPERIX** is the proposed Open Platform for Enterprise Records & Information Exchange (formerly GBOS).
+**Working codename: OPERIX (under trademark review).** This is a prerelease integration/contracts repository, not a marketed or certified production service. It is not affiliated with IFS Enterprises or other companies using similar names.
 
-This repository contains the intended public interface, integration contracts and community-facing documents. **It does not contain the private implementation, customer data, secrets or production OPERIX service.**
+The project explores authorized business-record imports, schema mappings and audit-backed discrepancy reconciliation. See `contracts/retail/README.md` for the synthetic API contract.
 
-Current state: early engineering and documentation. There is no verified public API deployment, marketplace, compliance certification, production SLA or live customer pilot.
+## Licensing and contributions
+The public repository contains an existing **Apache License, Version 2.0** (`LICENSE`). The license covers material distributed under its terms; it does **not** grant any third-party trademark rights, licenses to unrelated private code, or automatic access to private infrastructure. Copyright/third-party provenance and contributor rights still require review. See `CONTRIBUTING.md`, `GOVERNANCE.md` and `SECURITY.md`.
 
-## Pilot scope
-Synthetic retail source records, stock/sale interface contracts and evidence-backed reconciliation. See `contracts/retail/README.md` and `docs/MULTIDIMENSIONAL_INTERACTION.md`.
+## Public/private boundary
+Community API contracts and synthetic examples may appear here after review. Proprietary implementation, internal AI/IP, deployment secrets and customer information stay in the distinct **private** engineering repository and are not being published.
 
-## Contributions
-Community suggestions and PRs are welcome subject to contributor policy, provenance review, tests, maintainer review and relevant license terms. Do not submit secrets, personal data or copied proprietary code. **Do not assume the project is open-source licensed until a valid LICENSE file is expressly selected and published.**
-
-The proprietary implementation is in a separate private repository. Community contributors are not automatically granted access.
+**Status:** No production API, guaranteed SLA, paid product, app marketplace or external customer pilot has been verified. No customer data may be submitted.
