@@ -1,12 +1,14 @@
-# GBOS Public Governance
+# Public Community Governance
 
-GBOS Public is the official developer-facing ecosystem. Maintainers control official releases and merges; contributors may propose changes through pull requests.
+This public source and contract repository supports the enterprise records exchange project; **OPERIX is an uncleared working codename** and no affiliation with existing vendors is claimed.
 
-- No direct pushes to protected main once branch rules are configured.
-- Require reviews and passing tests before merging; use CODEOWNERS for sensitive paths.
-- Never submit customer data, credentials, internal architecture, proprietary core code or unlicensed third-party material.
-- Report vulnerabilities privately under SECURITY.md; do not disclose exploit details in public issues.
-- Public contributions must be appropriately licensed and reviewed for provenance.
-- The GBOS name and branding are not automatically licensed by source-code licenses.
+Maintainers retain control over merges, public releases, security review and project stewardship. Developers may propose changes through issues and pull requests but gain no private repository access.
 
-**License decision pending:** Do not assume that repository visibility grants permission to reuse code. Any future Apache-2.0 license would permit modification and commercial reuse of the licensed files, including forks; official repository governance does not restrict those rights.
+- Use PR reviews, CI checks, provenance validation and CODEOWNERS for security-sensitive paths before merging.
+- Licensed public material remains subject to the included **Apache License, Version 2.0** and its requirements. Maintainer policies cannot remove rights that license grants.
+- The Apache-2.0 license does not grant rights to the project's branding, private implementation or data.
+- No customer data, credentials, internal security operations or proprietary code in public contributions.
+- Report potential vulnerabilities privately under `SECURITY.md`.
+- Trademark clearance, contributor rights, third-party notices and commercial-use terms must be reviewed before official launch.
+
+**No public production deployment or independently assessed compliance certification is claimed.**
