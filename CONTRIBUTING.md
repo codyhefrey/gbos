@@ -1,13 +1,15 @@
-# Contributing to GBOS
+# Contributing to the Enterprise Records Exchange Project
 
-We welcome documentation improvements, SDK proposals, extension samples and interoperable API designs.
+The project uses a working codename currently undergoing trademark review. Please do not represent the project as a legally cleared business brand or affiliate with unrelated software providers.
 
-1. Open an issue describing the proposed change without sensitive details.
+We welcome improvements to documentation, SDK/interface proposals, and extension samples that use **synthetic data only**.
+
+1. Open an issue describing the proposal without sharing customer information or secrets.
 2. Work in your fork or feature branch.
-3. Submit a pull request with tests, documentation and a clear explanation.
-4. Confirm you have rights to submit all code and assets.
-5. Await maintainer review and automated checks; approval is not automatic.
+3. Submit a pull request explaining changes, tests, provenance and license compatibility.
+4. Confirm you have the rights to contribute all source and assets; do not submit third-party proprietary materials.
+5. Await maintainer security, legal and technical review. Merging is never automatic.
 
-Do not submit proprietary GBOS Core implementation, customer data, credentials, copied vendor code or security bypasses.
+The repository currently includes an Apache License 2.0 `LICENSE`. Contributions must be compatible with applicable license terms; the license does not authorize proprietary private source or trademark use.
 
-A public repository does not imply that all code is open-source licensed. The maintainers will publish explicit licenses for distributable components before accepting code contributions that require those grants.
+Never submit credentials, private API keys, customer records, production tokens or proprietary engineering files.
