@@ -5,7 +5,7 @@
 The project explores authorized business-record imports, schema mappings and audit-backed discrepancy reconciliation. See `contracts/retail/README.md` for the synthetic API contract.
 
 ## Licensing and contributions
-The public repository contains an existing **Apache License, Version 2.0** (`LICENSE`). The license covers material distributed under its terms; it does **not** grant any third-party trademark rights, licenses to unrelated private code, or automatic access to private infrastructure. Copyright/third-party provenance and contributor rights still require review. See `CONTRIBUTING.md`, `GOVERNANCE.md` and `SECURITY.md`.
+The public repository contains an existing **Apache License, Version 2.0** (`LICENSE`). The license covers material distributed under its terms; it does **not** grant any third-party trademark rights, licenses to unrelated private code, or automatic access to private infrastructure. Copyright/third-party provenance and contributor rights still require review. See `CONTRIBUTING.md`, `GOVERNANCE.md`, `SECURITY.md` and `docs/INTELLECTUAL_PROPERTY_AND_REUSE.md` for the precise boundary between public license rights and confidential assets.
 
 ## Public/private boundary
 Community API contracts and synthetic examples may appear here after review. Proprietary implementation, internal AI/IP, deployment secrets and customer information stay in the distinct **private** engineering repository and are not being published.
