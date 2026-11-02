@@ -81,5 +81,13 @@ The API examines the **latest 500 source records** and fetches one extra to dete
 
 Expected HTTP statuses include `401` unauthenticated, `403` unauthorized role or unavailable pilot mode. Records from another organization must never be returned. Other errors are not evidence of a successful reconciliation.
 
+## Safe evidence-detail lookup
+
+`GET /v1/organizations/{organization_id}/source-records/{record_id}`
+
+An authenticated, active organization member with `source.read` permission can inspect the **allowlisted facts** needed for a retail investigation: source record ID, importer-declared source system, receive timestamp, recognized record type, sale reference, SKU, positive units and a source-authenticity caveat. Raw imported JSON, unrelated customer fields and credentials must **not** be returned.
+
+A finance reviewer who has `discrepancy.read` but not `source.read` cannot use this endpoint until appropriately authorized. Missing records return `404`; unauthorized tenant access returns `403`, unauthenticated requests `401`. This is a restricted sandbox contract; source references do not prove the original vendor issued the record.
+
 ## Privacy, IP and operational boundary
 No real customer records, passwords, payment credentials or sensitive exports should enter these examples or public issues. Only reviewed, Apache-2.0-compatible public interface material belongs here; proprietary code and internal security implementation remain private. Commercial branding remains legally uncleared.
