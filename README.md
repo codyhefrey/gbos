@@ -10,7 +10,9 @@ Proposed domains include project/workforce/equipment management, procurement, in
 ## What is public
 Only independently reviewed API contracts, SDK/interfaces, integration examples, synthetic datasets, documentation and safe community contributions. The present `modules/` folders capture conceptual boundaries; a folder's presence does **not** establish feature completeness.
 
-The planned first independently testable slice is a versioned retail contract with explicit tenant authorization, inventory changes, invoice posting, payment states and reconciliation. A [draft public contract pull request](https://github.com/codyhefrey/operix/pull/1) is **unmerged** and does not represent a production API.
+**First target audience:** owners and operations teams at small/mid-sized retailers and wholesalers, finance reviewers and software integrators. The first independently testable job is `import synthetic POS and stock records → compare quantities → show evidence-backed exceptions → human review`. Its [new public audience/contract draft](https://github.com/codyhefrey/operix/pull/4) is **unmerged**, as is the earlier [retail sale-contract draft](https://github.com/codyhefrey/operix/pull/1). This does not represent a hosted production API.
+
+Later inventory-changing sales, invoicing, payment states, accounting postings and broader cross-industry modules remain **future objectives**, subject to reviewed financial and security rules.
 
 ## What remains private
 The proprietary core, private AI logic, internal implementations, organization and customer data, credentials, security operations, hosting settings and paid product internals. The private repository is **not licensed through this repository**. Never copy confidential code or live records into a public issue, pull request, sample or release.
